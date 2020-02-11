@@ -1,0 +1,220 @@
+/*header*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#grad{
+	margin-top: 0px !important;
+	background-image: linear-gradient(to right, orange, white, green);
+	height: 105px;
+}
+.fixed-top{
+	margin-top: 105px;
+}
+.lucky li a{
+	color: white !important;
+}
+.mm{
+	margin-top: 0px;
+}
+.bg-dark {
+    background-color: #00004d!important;
+}
+.scroll{
+	margin-top: 50px !important;
+}
+.image{
+	margin-top: 196px !important;
+}
+.por{
+	height: 200px;
+}
+.active{
+	background-color: red;
+}
+.navbar-nav .nav-item:hover{
+background-color: red;
+padding: 0px;
+}
+.mm{
+	height: 300px !important;
+}
+.mm img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-height: 300 !important; 
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 10px;
+ /* background-color: blue;*/
+ /* color: white;*/
+}
+div.slide{
+  border: 1px solid pink;
+}
+div.slide:hover{
+  border: 1px solid black;
+}
+@media screen and (min-width:320px) and (max-width: 640px){
+  .col-md-6{
+    width: 50% !important;
+  }
+  #grad{
+  background-image: linear-gradient(to right, orange, white, green);
+  height: 60px;
+}
+.mm{
+  margin-top: 0px !important;
+}
+.monu img{
+  height: 60px !important;
+}
+.fixed-top{
+  margin-top: 50px;
+}
+.image{
+  margin-top: 150px !important;
+}
+.pic{
+  height: 280px !important;
+  /*float: right !important;*/
+  width: 100% !important;
+}
+}
+.blinking{
+  animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+  0%{   color: white; }
+  49%{  color: white; }
+  50%{  color: transparent; }
+  99%{  color: white; }
+  100%{ color: white; }
+}
+/*End of the header*/
+h6{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.outer_Box{
+  width: 100%;
+  background-color: transparent;
+  box-shadow: -1px -1px 3px 3px #212302;
+}
+.inner_Box{
+  width: 90%;
+  background-color: transparent;
+  margin: 0px auto;
+  margin-bottom: 5px;
+}
+.inner_Box1{
+  width: 90%;
+  background-color: transparent;
+  margin: 0px auto;
+  margin-left: 33px;
+  margin-bottom: 5px;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 240px;
+  margin-top: 10px;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+span.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 13px;
+}
+.num li{
+  list-style-type: circle;
+  margin-left: 3px;
+}
+h2{
+  background-color: #737a0e;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+}
+.icons span{
+  padding: 10px;
+  background: yellow;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+.icons{
+  padding:12px;
+}
+footer{
+  background-color: grey;
+}
+.link1{
+  font-size: 20px;
+  padding: 15px;
+}
+.link1 span a{
+  color: white;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 25px;
+  border-radius: 50px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+/*form*/
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+form{
+  border: 1px solid grey;
+  width: 80%;
+  border-radius: 8px;
+  margin:0px auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Style the form icons */
+.input-container i{
+  background-color: dodgerblue;
+  padding: 3px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+
+}
+.btn3{
+  background-color: red;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.btn3:hover{
+  background-color: yellow;
+}
+/* Style the input fields */
